@@ -332,7 +332,6 @@ var newArr = [];
             }
             return newArr;
 }
-
 chunk(["a", "b", "c", "d","e"], 2);
 11. 数组截断算法 
 * function slasher(arr, howMany) {
