@@ -430,7 +430,7 @@ where([40, 60], 50);
         return result.join("");
       }
 rot13("SERR PBQR PNZC");
-## 其他
+##其他
 1.  linux系统 ubuntub16.04版本的安装；
 2.  配置并更新源；
 3.  建立自己的github账号并使用，建立自己的库；
