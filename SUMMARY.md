@@ -1,5 +1,5 @@
-#泥巴综合实习10月总结
-##html5&CSS
+# 泥巴综合实习10月总结
+## html5&CSS
 1.  标签与注释的学习。
 2.  有序与无序列表
 3.  form表单
@@ -35,7 +35,7 @@ color: red;
 9.  在 CSS 中表示颜色的另一个方法是使用 RGB 值。
 * 代表黑色的 RGB 值如下所示：rgb(0, 0, 0)代表白色的 RGB 值如下所示：rgb(255, 255, 255)
 * 使用 RGB，是使用RGB指定每个颜色的亮度，数字介于0到255之间，而不是像使用十六进制代码那样使用六个十六进制数字。
-##JavaScript
+## JavaScript
 1.  数据类型：undefined（未定义）, null（空）, boolean（布尔型）, string（字符串）, symbol(符号), number（数字）, and object（对象），共7种。
 * 创建变量以Var开头，以；号结尾。
 * 变量的名字：数字、字母、$ 或者 _组成，但是不能包含空格或者以数字为首。
@@ -153,7 +153,7 @@ i 代表着忽略大小写，意思是当我们寻找匹配的字符串的时候
 可以用正则表达式选择器的大写版本来反转任何匹配（相反意思）。
 例如：\s 匹配任何空白字符，\S 匹配任何非空白字符。
 var expression = /\S/g; //匹配所有非空白字符
-##Bootstrap
+## Bootstrap
 * Bootstrap会自动获取使用者屏幕的大小,并根据屏幕的大小自动调整HTML元素的宽度和高度来适配屏幕,因此称之为--响应式布局。
 * 使用Bootstrap也非常简单,你只需要把下面的链接添加到你需要使用Bootstrap来进行布局的应用的头部：
 < link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap /3.3.1/css/bootstrap.min.css"/>
@@ -161,7 +161,7 @@ var expression = /\S/g; //匹配所有非空白字符
 * 给标签添加text-center的class属性,标题文字就可以居中了。
 * 添加好看的按钮
 * 样式的响应式应用
-##jQuery
+## jQuery
 * 开始学习使用jQuery之前，需要在HTML文件中添加一些代码。
 首先，在页面顶部添加一行script元素，然后在下一行写上结束符。
 * 浏览器会运行script里所有的Javascript，包括jQuery。
@@ -195,7 +195,7 @@ h3的父级元素是div，而div的父级元素是body；
 ("#left-well").parent().css("background-color", "blue")
 * children()方法 可以设定一个HTML元素的子级元素的css样式；
 ("#left-well").children().css("color", "blue")
-##初级脚本算法
+## 初级脚本算法
 1.  翻转字符串
 * function reverseString(str) {
  str = str.split('');  //字符串转化为数组
@@ -430,7 +430,7 @@ where([40, 60], 50);
         return result.join("");
       }
 rot13("SERR PBQR PNZC");
-##其他
+## 其他
 1.  linux系统 ubuntub16.04版本的安装；
 2.  配置并更新源；
 3.  建立自己的github账号并使用，建立自己的库；
