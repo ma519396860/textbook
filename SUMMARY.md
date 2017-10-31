@@ -334,7 +334,7 @@ var newArr = [];
 }
 
 chunk(["a", "b", "c", "d","e"], 2);
-11. 数组截断算法
+11. 数组截断算法 
 * function slasher(arr, howMany) {
 // it doesn't always pay to be first
 var str=[];
