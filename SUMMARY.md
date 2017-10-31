@@ -44,7 +44,7 @@ color: red;
 * 可以使用变量名[索引数字]，获取该索引位置上的字符；如：firstName[0] 来获得第一个位置上的字符。（索引从0开始，0代表第一个字符）
 * .length可以获取变量的长度。
 2.  JavaScript 中，字符串的值是不可变的，这意味着一旦字符串被创建就不能被改变。改变的唯一方法是重新给它赋一个值。
-*为了得到一个字符串的第N个字符，你可以获取该字符串的长度并减N来作为最后一个字符的索引。
+* 为了得到一个字符串的第N个字符，你可以获取该字符串的长度并减N来作为最后一个字符的索引。
 如：firstName[firstName.length - N] 来得到字符串的最后的一个字符。
 3.  数组
 * 通过数组，我们可以将多个数据存储于同一个变量中。
@@ -195,7 +195,7 @@ h3的父级元素是div，而div的父级元素是body；
 ("#left-well").parent().css("background-color", "blue")
 * children()方法 可以设定一个HTML元素的子级元素的css样式；
 ("#left-well").children().css("color", "blue")
-## 初级脚本算法
+##初级脚本算法
 1.  翻转字符串
 * function reverseString(str) {
  str = str.split('');  //字符串转化为数组
